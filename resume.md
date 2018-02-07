@@ -8,17 +8,17 @@ Profile
 
 <table>
 <colgroup>
-<col width="31%" />
-<col width="17%" />
+<col width="30%" />
+<col width="18%" />
 <col width="25%" />
 <col width="25%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th align="center">Data</th>
-<th align="center">Dev</th>
+<th align="center">Development</th>
 <th align="center">Database</th>
-<th align="center">Ops</th>
+<th align="center">Operations</th>
 </tr>
 </thead>
 <tbody>
