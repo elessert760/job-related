@@ -1,6 +1,6 @@
 ---
-title: "Eric Lessert"
-date: "February 7, 2018"
+title: "Eric Lessert - Data Analytics Professional"
+date: ""
 author: "email: elessert760@gmail.com | github: elessert760 | phone: 239.682.3043"
 output:
   rmarkdown::html_document:
