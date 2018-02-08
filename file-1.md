@@ -1,7 +1,6 @@
-Eric Lessert
+Eric Lessert - Data Analytics Professional
 ================
 email: <elessert760@gmail.com> | github: elessert760 | phone: 239.682.3043
-February 7, 2018
 
 Profile
 -------
