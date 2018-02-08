@@ -1,10 +1,8 @@
 ---
 title: "Eric Lessert - Data Analytics Professional"
-date: ""
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 author: "email: elessert760@gmail.com | github: elessert760 | phone: 239.682.3043"
-output:
-  rmarkdown::html_document:
-    theme: yeti
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
