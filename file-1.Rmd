@@ -4,7 +4,7 @@ date: "February 7, 2018"
 author: "email: elessert760@gmail.com | github: elessert760 | phone: 239.682.3043"
 output:
   rmarkdown::html_document:
-    theme: cosmo
+    theme: yeti
 ---
 
 ```{r setup, include=FALSE}
