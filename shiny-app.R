@@ -15,11 +15,11 @@ setwd(here("R/apps/benchmarking/"))
 Choices <- read_csv("joined.csv")
 Choices <- lapply(Choices$`Owner Name` %>% unique, "[")
 
-# Define UI for application that draws a histogram
-ui <- fluidPage(# Application title
+# Define UI for application 
+ui <- fluidPage(
   titlePanel("Benchmarking"),
   
-  # Sidebar with a slider input for number of bins
+  # Sidebar with  client selector
   sidebarLayout(sidebarPanel(
     selectizeInput("choice", "Select a Client", Choices, selected = "")
     
