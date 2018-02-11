@@ -25,7 +25,6 @@ ui <- fluidPage(# Application title
     
   ),
   
-  # Show a plot of the generated distribution
   mainPanel(
     tabsetPanel(
       tabPanel(title = "Table",
@@ -37,8 +36,6 @@ ui <- fluidPage(# Application title
     )
   )))
 
-
-# Define server logic required to draw a histogram
 server <- function(input, output, session) {
   dat <- read_csv("joined.csv")
   joined <- reactive({
