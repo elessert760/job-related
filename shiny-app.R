@@ -12,6 +12,42 @@ library(here)
 
 setwd(here("R/apps/benchmarking/"))
 
+# # #############################
+# can connect to varisoud DBs here or read from a local file (.csv, feather, JSON)
+# # ############################
+
+
+
+
+# # ############################
+# example db connect
+# # ############################
+
+# library(dbplyr)
+# library(RMySQL)
+# con <-
+#   dbConnect(
+#     RMySQL::MySQL(),
+#     host = "mysql.server.location",
+#     username = 'username',
+#     password = .pass, #stored in .Renviron for security
+#     port = 3306,
+#     dbname = 'db_name'
+#   )
+# 
+# dbGetQuery(con, "set names utf8")
+# 
+# cust <- tbl(con, "customer")
+# completion <- tbl(con, "tasks")
+# industry <- tbl(con, "company")
+# 
+# 
+# joined <- cust %>% inner_join(industry, by = c("id" = "company_id")) %>% 
+#   inner_join(completion, by = c("id" = "company_id")) %>% 
+#   group_by(industry, customer, is_complete) %>% 
+#   show_query %>% 
+#   collect()
+
 Choices <- read_csv("joined.csv")
 Choices <- lapply(Choices$`Owner Name` %>% unique, "[")
 
