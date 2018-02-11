@@ -22,7 +22,7 @@ ___
 
 dat <- c("Statistical Analysis", "Visualizations", "Data Wrangling")
 dev <- c("Linux", "Git/Github", "R/Rstudio")
-dba <- c("NOSQL", "Data Warehousing", "Dashboards")
+dba <- c("SQL/NOSQL", "Data Warehousing", "Dashboards")
 ops <- c("Task Automation", "Excel", "Reporting")
 as_data_frame(bind_cols(Data = dat, Development = dev, Database =  dba, Operations = ops)) %>% pander()
 
