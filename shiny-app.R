@@ -62,7 +62,8 @@ server <- function(input, output, session) {
   })
   
   prop_summary <- reactive({
-    dat[dat$`Industry Group` == dat$`Industry Group`[which(dat$`Owner Name` == input$choice)[1]],] %>% group_by(`Industry Group`, `Owner Name`, completed) %>%
+    dat[dat$`Industry Group` == dat$`Industry Group`[which(dat$`Owner Name` == input$choice)[1]],] %>% 
+      group_by(`Industry Group`, `Owner Name`, completed) %>%
       summarise(Count = n()) %>%
       ungroup %>%
       group_by(`Owner Name`) %>%
