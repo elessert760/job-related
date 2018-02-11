@@ -1,0 +1,13 @@
+Package: examplePackage
+Title: Demonstrates that Eric can create R packages
+Version: 0.0.0.9000
+Authors@R: person("Eric", "Lessert", email = "elessert760@gmail.com", role = c("aut", "cre"))
+Description: just prints the diamonds data set, and some plots
+Depends: R (>= 3.4.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    pander
+RoxygenNote: 6.0.1
