@@ -139,7 +139,7 @@ alias sql="sqlplus / as sysdba"
 alias diag="cd $ORACLE_BASE/diag/rdbms/$ORACLE_UNQNAME/$ORACLE_SID/trace"
 
 neofetch --color_blocks -off
-
+~/Documents/reference/linux-bash-scripts/basics.sh
 
 alias sql_developer='sudo /opt/sqldeveloper/sqldeveloper.sh'
 alias open-refine='sudo /home/eric/open-refine/openrefine.sh'
@@ -151,7 +151,7 @@ alias weather='ansiweather -l ramona -u imperial -d t -f 5'
 alias crash='cd /var/crash; sudo rm *'
 alias rconn='ssh -p 2200 elessert@rstudio.query.s44'
 alias news='curl http://rss.nytimes.com/services/xml/rss/nyt/US.xml | grep "<description>"'
-alias anscombe='cd Documents/PM\ Results/matt\ t/anscombe'
+alias anscombe='cd Documents/PM\ Results/matt\ t/anscombe/anscombe'
 alias top5='ps auxf | sort -nr -k 4 | head -5'
 alias upup='update && upgrade -y && autoremove'
 
@@ -160,7 +160,7 @@ export BASH_IT="/home/eric/.bash_it"
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
-export BASH_IT_THEME='doubletime'
+export BASH_IT_THEME='bobby'
 
 # (Advanced): Change this to the name of your remote repo if you
 # cloned bash-it with a remote other than origin such as `bash-it`.
@@ -207,5 +207,5 @@ export SCM_CHECK=true
 source "$BASH_IT"/bash_it.sh
 
 #Load git prompt
-GIT_PROMPT_ONLY_IN_REPO=1
-source ~/.bash-git-prompt/gitprompt.sh
+#GIT_PROMPT_ONLY_IN_REPO=1
+#source ~/.bash-git-prompt/gitprompt.sh
