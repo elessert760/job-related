@@ -13,7 +13,7 @@ library(here)
 setwd(here("R/apps/benchmarking/"))
 
 # # #############################
-# can connect to varisoud DBs here or read from a local file (.csv, feather, JSON)
+# can connect to various DBs here or read from a local file (.csv, feather, JSON)
 # # ############################
 
 
