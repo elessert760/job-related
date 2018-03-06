@@ -118,3 +118,14 @@ snippet zzz
 
 snippet sep
 	#########################
+	
+snippet disco
+	cons <- dbListConnections(MySQL());lapply(cons, dbDisconnect);rm(cons)
+
+snippet shrug
+	¯\_(ツ)_/¯
+
+snippet boson
+	cons <- dbListConnections(MySQL());lapply(cons, dbDisconnect);con <-dbConnect(RMySQL::MySQL(),host = "mysql.query.s44", username = 'elessert',password = .elessert_pass,port = 3306,dbname = 'boson');dbGetQuery(con, "SET NAMES utf8")
+
+
