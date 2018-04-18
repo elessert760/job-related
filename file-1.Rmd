@@ -27,30 +27,27 @@ as_data_frame(bind_cols(Data = dat, Development = dev, Database =  dba, Operatio
 
 
 ### Work History
+___
 
 ####Data Scientist I - Source Intelligence 2014-2018
 
-  Collaborate with Development/Operations teams to create projects that build value through data science. Tasks included dashboard creation,data visualizations using various tools including tableau,  R programming, algorithm development, statistical testing, experimental design and task automation for repetitive work. Wrangle data from many sources to model ready data. Created data science pipelines from customer generated data through branded repeatable reports. Write and execute SQL queries and stored procedures. Create and maintain data APIs. Communicate data and statistical results to executive team using approachable language for easier decisions. Code samples available on request.
+  Collaborate with Development/Operations teams to create projects that build value through data science. Tasks included dashboard creation,data visualizations using various tools including tableau, R programming, algorithm development, statistical testing, experimental design and task automation for repetitive work. Wrangle data from many sources to model/database ready data. Data warehousing activities including ETL. Created data science pipelines from customer generated data through branded repeatable reports. Write and execute SQL queries and stored procedures. Create and maintain data APIs. Communicate data and statistical results to executive team using approachable language for easier decisions. Code samples available on request.
   
 
 #### Production Operator - Nexus Dx/Samsung Electronics  2012-2013
 
 
   Implemented 5-S - Lean inventory management. Implemented 5-S shipping and receiving procedures. Acted as primary buyer and planner to meet forecasted demand (MRP). Implemented enterprise resource planning (ERP) software as part of a multi-department team.  Performed statistical analysis of raw materials, processes and cycle times. Developed and implemented process improvements. Implemented GMP processes, drafted manufacturing SOP’s and work instructions. Participated in internal and external audits including ISO. Supervised a team of 10+ assemblers to meet manufacturing deadlines. Set-up manufacturing equipment and process flow. Calibrated and maintained manufacturing equipment. Completed and reviewed batch records.
-  
-  
-#### Pet Training Instructor - PetSmart 2009-2011
-
-
-  Teach organized classes of 10-30 people pet training techniques that use positive reinforcement to alter dogs behavior. Teach private one-on-one lessons to help owners and pets live better lives together. Interacted with customers to find the best solution for their pets behavior. Scheduled pet training classes in coordination with other trainers to maximize time available for sales and training. 
 
 
 #### Hospital Corpsman - United States Navy 2004-2009
 
 
  Maintained inventory of consumable and durable medical supplies for use in trauma care setting valued in excess of $75, 000. Member of trauma care team including forward surgical suite and shock/trauma team. Created and maintained documentation of patient care in computerized health records. Managed patient evacuation out of theater of operations during Operation Iraqi Freedom in Al Anbar Province, Iraq. 
- 
+
+
 ### Education
+___
 
 ####Graduate Certificate in Applied Statistics 
 
