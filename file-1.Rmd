@@ -19,8 +19,8 @@ library(pander)
 
 dat <- c("Statistical Analysis", "Visualizations", "Data Wrangling")
 dev <- c("Linux", "Git/Github", "R/Rstudio")
-dba <- c("SQL/NOSQL", "Data Warehousing", "Dashboards")
-ops <- c("Task Automation", "Excel", "Reporting")
+dba <- c("Dashboards", "SQL/NOSQL", "Data Warehousing")
+ops <- c("Task Automation", "Excel/Tableau", "Reporting")
 as_data_frame(bind_cols(Data = dat, Development = dev, Database =  dba, Operations = ops)) %>% pander()
 
 ```
@@ -30,7 +30,7 @@ as_data_frame(bind_cols(Data = dat, Development = dev, Database =  dba, Operatio
 
 ####Data Scientist I - Source Intelligence 2014-2018
 
-  Collaborate with Development/Operations teams to create projects that build value through data science. Tasks included algorithm development, statistical testing, experimental design, dashboard creation using R language (rstudio::shiny) and task automation for repetitive work. Wrangle data from many sources to model ready data. Created data science pipelines from customer generated data through branded repeatable reports. Wrote and executed SQL queries and stored procedures. Create and maintain data APIs. Communicate data and statistical results to executive team using approachable language for easier decisions. Code samples available on request.
+  Collaborate with Development/Operations teams to create projects that build value through data science. Tasks included dashboard creation,data visualizations using various tools including tableau,  R programming, algorithm development, statistical testing, experimental design and task automation for repetitive work. Wrangle data from many sources to model ready data. Created data science pipelines from customer generated data through branded repeatable reports. Write and execute SQL queries and stored procedures. Create and maintain data APIs. Communicate data and statistical results to executive team using approachable language for easier decisions. Code samples available on request.
   
 
 #### Production Operator - Nexus Dx/Samsung Electronics  2012-2013
@@ -55,13 +55,13 @@ as_data_frame(bind_cols(Data = dat, Development = dev, Database =  dba, Operatio
 ####Graduate Certificate in Applied Statistics 
 
 
-#####Pennsylvania State University 2014-Present
-Applied statistics, statistical programming, model selection and development, experimental design, reproducible research.
+#####Pennsylvania State University 2014
+Applied statistics, statistical programming, model selection and development, experimental design, reproducible research. Coursework not yet completed.
 
 #### Bachelor of Science 
 #####Environmental Health Trident University International 2007-2011
-Relevant coursework includes, Microbiology, Environmental Health & Safety, Hazardous Materials Safety, Water Quality and Wastewater Management.
+Relevant coursework includes, Microbiology, Environmental Health & Safety, Hazardous Materials Safety, Water Quality and Waste-water Management.
 
 #### Associate of Science
 #####Biotechnology Research & Development MiraCosta College 2009-2012
-Knowledge and skill training for competent and compliant technical laboratory work, including solution and media preparation, sterile technique, bacterial culture, mammalian cell culture, protein purification using liquid chromatography, protein assays, gel electrophoresis, recombinant DNA techniques, and documentation (SOPs, batch records, notebooks). Other coursework includes chemistry, biostatistics and business and regulatory practices in biotechnology. Algae cell culture, biochemistry of various biofuel producing organisms, oil extraction and purification techniques. Lab notebook sample available upon request.
+Knowledge and skill training for competent and compliant technical laboratory work, including solution and media preparation, sterile technique, bacterial culture, mammalian cell culture, protein purification using liquid chromatography, protein assays, gel electrophoresis, recombinant DNA techniques, and documentation (SOPs, batch records, notebooks). Other coursework includes chemistry, bio-statistics and business and regulatory practices in biotechnology. Algae cell culture, biochemistry of various bio-fuel producing organisms, oil extraction and purification techniques. Lab notebook sample available upon request.
